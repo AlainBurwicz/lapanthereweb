@@ -1669,6 +1669,10 @@ mark {
     white-space: nowrap
 }
 
+.text-wrap{
+    text-align: wrap
+}
+
 .text-lowercase {
     text-transform: lowercase
 }
@@ -2305,6 +2309,7 @@ pre code {
     }
     .col-sm-12 {
         width: 100%
+        
     }
     .col-sm-11 {
         width: 91.66666667%

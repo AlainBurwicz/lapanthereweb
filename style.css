@@ -641,8 +641,13 @@ a[data-lightbox]:hover img {
 }
 
 .police{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h1,
@@ -777,15 +782,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #BF4D0F;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #BF4D0F;
     color: #FFFFFF!important;
 }
 
@@ -803,7 +808,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #BF4D0F!important;
 }
 
 .ltc-atomic-tangerine:hover {

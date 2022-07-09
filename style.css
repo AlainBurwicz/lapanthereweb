@@ -686,9 +686,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+/* Modif lisibilité SEO / ACCESSIBILITE ABZ test lecture seule*/
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {

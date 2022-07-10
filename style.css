@@ -1,4 +1,27 @@
 /* ABZ */
+/* .accesib{
+    position: absolute;
+    top: -10em;
+    z-index: 1000;
+    width: 100%;
+}
+
+.accesib a {
+    background-color: #FFF;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.accesib a:focus,
+.accesib a:hover {
+   top: 10px;
+   text-decoration: none; 
+} */
+
+
 body {
     margin: 0;
     padding: 0;
@@ -363,6 +386,7 @@ a:hover {
     z-index: 2;
 }
 
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -688,7 +712,7 @@ a {
 }
 /* Modif lisibilité SEO / ACCESSIBILITE ABZ test lecture seule*/
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -821,11 +845,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.jpg");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.jpg");
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {

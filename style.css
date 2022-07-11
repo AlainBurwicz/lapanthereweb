@@ -1,4 +1,5 @@
 /* ABZ */
+
 /* .accesib{
     position: absolute;
     top: -10em;
@@ -666,12 +667,32 @@ a[data-lightbox]:hover img {
 
 .police{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 
     width: 80%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
+}
+
+.police2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.police3{
+    font-weight: 400;
+    color: gray;
+}
+
+h4{
+    font-size: 12px;
 }
 
 h1,
@@ -794,6 +815,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
+    font-size: 14px;
     text-decoration: underline!important;
 }
 
@@ -824,6 +846,7 @@ h4 {
 }
 
 .ltc-white {
+    display: flex;
     color: #FFFFFF!important;
 }
 

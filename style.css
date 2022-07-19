@@ -761,14 +761,14 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 700;
     color: #333333!important;
 }
@@ -785,6 +785,9 @@ h1 {
 
 h4 {
     color: #333333!important;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .icons {

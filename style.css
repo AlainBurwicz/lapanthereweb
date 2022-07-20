@@ -839,6 +839,11 @@ h3 {
     color: #FFFF!important;
 }
 
+.text-bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .btn-atomic-tangerine {
     background: #BF4D0F;
     color: #FFFFFF!important;

@@ -2021,7 +2021,15 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
+}
+
+.row2{
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+
+
 }
 
 .col-lg-1,

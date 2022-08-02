@@ -2024,15 +2024,11 @@ pre code {
     margin-left: -15px;
 }
 
-@media (min-width: 768px) {
-    
-
+@media (min-width:768px) {
 .row2{
     margin-right: -15px;
     margin-left: -15px;
     display: flex;
-
-
 }
 }
 

@@ -685,26 +685,26 @@ a[data-lightbox]:focus-visible img {
 }
 
 .police {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     color: #2c2c2c;
     width: 80%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .police2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     width: 80%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: #2c2c2c;
+    color: #585858;
+}
+.citation_client{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+    color: #858585;
 }
 
 .police3 {

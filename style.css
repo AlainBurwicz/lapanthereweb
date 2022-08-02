@@ -43,6 +43,7 @@ a:hover {
     cursor: pointer;
 }
 
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -312,7 +313,7 @@ a:hover {
     font-size: 32px;
 }
 
-.navbar {
+.navbar{
     margin-bottom: 0;
     z-index: 1;
 }
@@ -595,6 +596,12 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 
+a[data-lightbox]:focus-visible img {
+    opacity: 0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+}
+
 #lightbox-modal {
     display: flex;
     align-items: center;
@@ -859,15 +866,24 @@ h3 {
     font-size: 18px;
 }
 
-.btn-atomic-tangerine {
+.btn-atomic-tangerine{
     background: #BF4D0F;
     color: #FFFFFF !important;
+
+/* .btn-atomic-tangerine:focus-visible {
+    transform: scale(1);
+    background: #BF4D0F; */
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
     color: #FFFFFF !important;
 }
+.btn-atomic-tangerine:focus-visible {
+    background: #ff5900 !important;
+    color: #FFFFFF !important;
+}
+
 
 .ltc-white {
     display: flex;
